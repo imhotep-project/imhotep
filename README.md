@@ -1,7 +1,7 @@
 # IMHOTEP Project
 IMpacts of freshwater discHarge interannual variability on Ocean heaT-salt contents and rEgional sea level change over the altimetry Period.
 
-The public [webepage here](https://stephanieleroux.github.io/Project-IMHOTEP/).
+The public [webpage here](https://stephanieleroux.github.io/Project-IMHOTEP/).
 
 
 ## Github ressources

@@ -17,7 +17,7 @@ In this github repository, you'll find about:
 ---
 ---
 
-## [IMHOTEP](https://stephanieleroux.github.io/Project-IMHOTEP/) in brief:
+## [IMHOTEP](https://stephanieleroux.github.io/Project-IMHOTEP/) in short:
 * IMpacts of freshwater discHarge interannual variability on Ocean heaT-salt contents and rEgional sea level change over the altimetry Period.
 * Principal investigators: 
     - PENDUFF Thierry (DR CNRS), Institut des Géosciences de l'Environnement (IGE) Grenoble.

@@ -1,3 +1,4 @@
+![imhotep](DOCS/FIGS/imhotep_hieroglyphe.png)
 # IMHOTEP
 #### IMpacts of freshwater discHarge interannual variability on Ocean heaT-salt contents and rEgional sea level change over the altimetry Period.
 

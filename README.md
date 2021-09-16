@@ -3,8 +3,6 @@
 
 _This github is still under construction.!!_
 
-[Webpage here](https://stephanieleroux.github.io/Project-IMHOTEP/).
-
 
 ## Github ressources
 

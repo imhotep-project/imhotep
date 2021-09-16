@@ -1,14 +1,16 @@
-# IMHOTEP Project
-IMpacts of freshwater discHarge interannual variability on Ocean heaT-salt contents and rEgional sea level change over the altimetry Period.
+# IMHOTEP
+#### IMpacts of freshwater discHarge interannual variability on Ocean heaT-salt contents and rEgional sea level change over the altimetry Period.
 
-The public [webpage here](https://stephanieleroux.github.io/Project-IMHOTEP/).
+_This github is under construction.!!_
+
+[Webpage here](https://stephanieleroux.github.io/Project-IMHOTEP/).
 
 
 ## Github ressources
 
 In this github repository, you'll find about:
 * [IMHOTEP: context, objectives and project organisation](https://stephanieleroux.github.io/Project-IMHOTEP/), 
-* [NEMO ocean-sea-ice simulations]():
+* [NEMO ocean-sea-ice simulations](https://github.com/molines/IMHOTEP):
   - [global sensitivity runs (WP1)]()
   - [regional ensemble runs (WP2)]()
 * [Codes, tools, and tutos to access and explore the IMHOTEP data](/TOOLS/),

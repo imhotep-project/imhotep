@@ -1,5 +1,5 @@
 ### This repo contains tutorials and examples of codes to read and process the IMHOTEP outputs.
-Scripts, notebooks, etc. See list below. Anyone can update the list with his own scripts!
+Scripts, notebooks, etc. See list below. Anyone can update the list with his own tools!
 
 ---
 *  __[CDFTOOLS](https://github.com/meom-group/CDFTOOLS)__: you might want to install the CDFTOOLS on Jean Zay to easily apply some post-processing to the original simulation outputs,

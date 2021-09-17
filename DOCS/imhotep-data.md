@@ -5,14 +5,5 @@
 ## Nomenclature and documentation about the simulations:
 * The technical doc and details on each simulations can be found [here](https://github.com/molines/IMHOTEP/tree/master/eORCA025)
 * Summary of the simulations:
-
-| IMHOTEP run name                    |  02  |  S   | GAI  | GAIa | GI   | GA   | AI   |
-| ----------------------------------- | :--: | :--: | :--: | ---: | ---- | ---- | ---- |
-| Atmospheric forcing                 |     DFS5.2 (based on ERAi)   |
-| Time period                         |      |      |      |      |      |      |      |
-| suface salinity restoring           |      |      |      |      |      |      |      |
-| FW air-sea flux correction          |      |      |      |      |      |      |      |
-| Freshwater runoff forcing           |      |      |      |      |      |      |      |
-| **G**reenland melt (G)              |      |      |      |      |      |      |      |
-| North **A**tlantic Ocean rivers (A) |      |      |      |      |      |      |      |
-| **I**ndian ocean rivers (I)         |      |      |      |      |      |      |      |
+![nomenclature tab](DOCS/FIGS/imhotep-nomenclature.png)
+_[.doc source](https://docs.google.com/document/d/1bAdjA8vK-TqqfxYqMXz69SUwyC0q7RlbeJqpd-5bzxo/edit?usp=sharing)_

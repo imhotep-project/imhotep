@@ -16,4 +16,4 @@ Available projects:
 regi915@jean-zay3:>>  eval $(idrenv -d cli)
 ```
 
-*  IDRIS doc: [[FR]](http://www.idris.fr/jean-zay/cpu/jean-zay-cpu-doc_multi_projet.html) / [[EN]](http://www.idris.fr/eng/jean-zay/cpu/jean-zay-cpu-doc_multi_projet-eng.html)
+*  The full documentation on the IDRIS website: [[FR]](http://www.idris.fr/jean-zay/cpu/jean-zay-cpu-doc_multi_projet.html) / [[EN]](http://www.idris.fr/eng/jean-zay/cpu/jean-zay-cpu-doc_multi_projet-eng.html)

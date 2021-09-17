@@ -11,7 +11,7 @@ Here are links to:
   - [global sensitivity runs (WP1)](https://github.com/molines/IMHOTEP/tree/master/eORCA025)
   - [regional ensemble runs (WP2)]()_(to come soon)_
   
-* __Where to find the [IMHOTEP data](/DOCS/imhotep-data.md) and the list of experiments__,
+* __Where to find the [IMHOTEP simulation outputs](/DOCS/imhotep-data.md) and the list of experiments__,
   
 * __[Codes, tools, and tutos](/TOOLS/)__ to access, check and explore the IMHOTEP data.
  

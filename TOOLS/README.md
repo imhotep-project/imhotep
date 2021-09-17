@@ -1,7 +1,8 @@
-### This repo contains tutorials and  codes to read and process the IMHOTEP outputs.
-Scripts, notebooks, etc. See list below.
+### This repo contains tutorials and examples of codes to read and process the IMHOTEP outputs.
+Scripts, notebooks, etc. See list below. Anyone can update the list with his own scripts!
 
 ---
+* __[CDFTOOLS](https://github.com/meom-group/CDFTOOLS)__: you might want to install the CDFTOOLS on Jean Zay to easily apply some post-processing to the original simulation outputs,
 * Quick check of the variability in Surface Salinity  between the IMHOTEP runs GAI and GAIa  [[slides]]() [[notebook]](https://nbviewer.jupyter.org/github/stephanieleroux/Project-IMHOTEP/blob/main/TOOLS/NOTEBOOKS/2021-09-16_SLX_JZ_IMHOTEP_SSS_compEXP_shared.ipynb).
-* ...
+* Jean-Marc has shared some of his scripts to look at surface salinity data [here](https://github.com/molines/IMHOTEP/tree/master/TOOLS),
 * ...

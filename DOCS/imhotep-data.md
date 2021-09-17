@@ -4,6 +4,6 @@
 
 ## Nomenclature and documentation about the simulations:
 * The technical doc and details on each simulations can be found [here](https://github.com/molines/IMHOTEP/tree/master/eORCA025),
-* Summary of the simulations:
+* Here is a summary:
 ![nomenclature tab](/DOCS/FIGS/imhotep-nomenclature.png)
-_[.doc source](https://docs.google.com/document/d/1bAdjA8vK-TqqfxYqMXz69SUwyC0q7RlbeJqpd-5bzxo/edit?usp=sharing)_
+_If you need to copy or modify this table, the [.doc source is available here](https://docs.google.com/document/d/1bAdjA8vK-TqqfxYqMXz69SUwyC0q7RlbeJqpd-5bzxo/edit?usp=sharing)_

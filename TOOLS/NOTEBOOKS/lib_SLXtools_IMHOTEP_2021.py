@@ -289,3 +289,60 @@ def _detrend_2d_ufunc(arr):
     d_est = np.dot(G, m_est)
     linear_fit = np.reshape(d_est, N)
     return arr - linear_fit
+
+
+
+
+def trpolyfit(xrar,fty='yr'):
+    # Based on  http://atedstone.github.io/rate-of-change-maps/
+    # convert to np array before applying polifit function
+    # fty will be the parameter to indicate the frequency of. the input data. For now only works with 'yr' for yearly data.
+    
+    vals = xrar.values 
+    years = xrar.time_counter.to_index().year.values
+
+    # Reshape to an array with as many rows as years and as many columns as there are pixels
+    vals2 = vals.reshape(len(years), -1)
+
+    # Do a first-degree polyfit
+    regressions = np.polyfit(years, vals2, 1)
+
+    # Get the coefficients back
+    trends = regressions[0,:].reshape(vals.shape[1], vals.shape[2])
+    origins    = regressions[1,:].reshape(vals.shape[1], vals.shape[2])
+
+    # make it back to xarry format
+    xrtrends = xr.DataArray(
+        data=trends,
+        dims=["y", "x"],
+        attrs=dict(
+            description="trend coeff",
+            units="(g/kg)/year"
+        ),
+    )
+
+    xrorigins = xr.DataArray(
+        data=origins,
+        dims=["y", "x"],
+        attrs=dict(
+            description="b value",
+            units="(g/kg)"
+        ),
+    )
+    return xrtrends,xrorigins,years
+
+
+def trseries(xrtrends,xrorigins,ty,tc):
+    # Based on http://atedstone.github.io/rate-of-change-maps/
+    ic=-1
+    for iy in ty:
+        ic = ic+1
+        lintr  = iy*xrtrends
+        lintro = xrorigins
+        tmp = lintro.expand_dims(dim='time_counter',axis=0) + lintr.expand_dims(dim='time_counter',axis=0)
+        if (ic!= 0):
+            tr = xr.concat([tr, tmp], dim="time_counter")
+        else:
+            tr = tmp
+    tr = tr.assign_coords({"time_counter": tc})
+    return tr

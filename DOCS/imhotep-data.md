@@ -7,3 +7,6 @@
 * Here is a summary:
 ![nomenclature tab](/DOCS/FIGS/imhotep-nomenclature.png)
 _If you need to copy or modify this table, the [.doc source is available here](https://docs.google.com/document/d/1bAdjA8vK-TqqfxYqMXz69SUwyC0q7RlbeJqpd-5bzxo/edit?usp=sharing)_.
+
+## Catalog of model output during WP1:
+* A very raw catalog of data output produced during WP1 is available [here](/DOCS/output_catalog.md).

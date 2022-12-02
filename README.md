@@ -9,7 +9,7 @@ Here are links to:
     
 * __The [description and Making Of the NEMO ocean-sea-ice simulations designed for the project](https://github.com/molines/IMHOTEP):__
   - [global sensitivity runs (WP1)](https://github.com/molines/IMHOTEP/tree/master/eORCA025)
-  - [regional ensemble runs (WP2)](https://github.com/molines/IMHOTEP/tree/master/eORCA025/ENSEMBLE_SIMULATIONS)
+  - [global ensemble runs (WP2)](https://github.com/molines/IMHOTEP/tree/master/eORCA025/ENSEMBLE_SIMULATIONS)
   
 * __Where to find the [IMHOTEP simulation outputs](/DOCS/imhotep-data.md) and the list of experiments__,
   
